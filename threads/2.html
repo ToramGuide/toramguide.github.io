@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Toram Wiki</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="keywords" content="Toram Wiki, Toram Online, MMORPG, Guide">
+    <meta name="description" content="Tank Guide
+    shoutout to ClickFan A.K.A Sente for the help!">
+    <meta name="author" content="ZyRule#5027">
+    <meta name="twitter:site" content="@sitename">
+    <meta name="theme-color" content="#7345ff">
+    <meta property="og:local" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Toram Wiki">
+    <meta property="og:url" content="https://toram.wiki.gd">
+ 
+
+    <meta property="og:site_name" content="Toram Wiki">
+    <meta property="og:description" content="Tank Guide
+    shoutout to ClickFan A.K.A Sente for the help!">
+    <meta property="og:image" content="https://toram.wiki.gd/image/media/pelulu300.png">
+
+    <link rel="shortcut icon" href="image/media/pelulu300.png" type="image/x-icon">
+  <link rel="icon" type="image/png" href="https://toram.wiki.gd/image/media/pelulu300.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#center {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  text-align: center;
+}
+
+.title {
+  padding-bottom: 15px;
+  letter-spacing: normal;
+  font-family: Arial, sans-serif;
+	font-style: normal;
+	font-size: 40px;
+	color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(225, 224, 250);
+}
+
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span {
+    color: rgb(97, 52, 235);
+}
+
+.blog-heading h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: 1000px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text span{
+    color: rgb(97, 52, 235);
+    font-size: 0.9rem;
+}
+
+.blog-text .blog-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+
+.blog-text .blog-title:hover {
+    color: rgb(97, 52, 235);
+    transition: all ease 0.3s;
+}
+
+.blog-text p{
+    color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 1);
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3s;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.blog-text a{
+    color: #0f0f0f;
+}
+
+.blog-text a:hover {
+    color: rgb(97, 52, 235);
+    transition: all ease 0.3s;
+}
+
+@media(max-width:1250px){
+    .blog-box {
+        width: 300px;
+    }
+}
+
+@media(max-width:1100px){
+    .blog-box {
+        width: 70%;
+    }
+}
+	
+@media(max-width:800px){
+    h4 {
+        font-size: 30px;
+    }
+    .title{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:600px){
+    h4 {
+        font-size: 20px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1250px){
+    .blog-box {
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog{
+        padding: 20px;
+    }
+}
+
+</style>
+</head>
+
+
+  <div>
+       <ul>
+        <li><a href="https://toram.wiki.gd/">Home</a></li>
+        <li><a class="w3-deep-purple" href="https://toram.wiki.gd/guide">Guide</a></li>
+        <li><a href="https://discord.gg/F37YFudpWP" target="_blank">Discord</a></li>
+  </ul>
+  </div> 
+</div> 
+
+
+<body>
+<section id="blog">
+    <div class="blog-heading">
+        <h4 class="title"><strong><u>Tank Guide</u></strong></h4>
+    </div>
+
+    <div class="blog-container">
+        <div class="blog-box">
+            <div class="blog-img"><img src="https://steamah.com/wp-content/uploads/2021/12/Toram-Online.jpg" alt="stats"></div>
+            <div class="blog-text">
+                <span id="center">9 February 2022 / Tank Guide</span>
+                <p>
+
+                    <strong>Types of tanks</strong><br><br>
+                    • One hand sword + shield : Short range, Spirited Dance, Decoy Shot, high aggro<br>
+                    • Knuckles + shield: Short range, Spirited Dance, Decoy Shot, can debuff bosses<br>
+                    • Staff + shield: Long range, can Fantasy Song, Maximize, Stone Barrier<br>
+                    • Bowgun + shield: Long range, Fantasy Song, Decoy Shot<br>
+                    • Barehand: Slow to start each battle, but gets overpowered after 30 seconds. Good for hard bosses (guild raids), slow and overkill for easy bosses<br>
+                    • Dps tanks: These deserve their own separate guide<br><br><br>
+                    
+                    <strong>Types of healing</strong><br><br>
+                    • Heal: 300mp, cannot be used in combo, heals for 3000 + 20% of target's max hp. Also can be used to reduce revive timer by 30 seconds<br>
+                    • Royal Heal: 400mp, cannot be used in combo, heals for 5000 + 30% of caster's hp. Cannot reduce revive time. Also, 1hp dps's will say typt<br>
+                    • Nature's Wonder: Heals for a percentage of max HP, but the healing is split based on the number of allies within 16m. Can be used in combos. 400mp if cast alone, or 0mp if you use the "save" combo tag. If timed correctly, it can also save you from getting tumbled. However, if you party with 1hp dps's, they'll say typt and leave. <br>
+                    • Bloodsucker combo tag: If the move with this tag is the 2nd move in the combo, it will heal you for 20% of the damage it deals. If the move with this tag is the 3rd move in your combo, it will heal you for 30% of the damage dealt. And so on and so forth. In theory, Bloodsucker Shield Cannon could heal 100k per 30 seconds<br>
+                    • Parsimony: Get a free Revita (max 11k) every 20 seconds. Cost: Stoodie into insanity<br><br><br>
+                    
+                    <strong>Tank's duties</strong><br><br>
+                    • Positioning. Try to keep the boss within range of the dps's decoys so that your dps's can get free mp.<br>
+                    • Staying alive<br>
+                    • Maintaining aggro<br>
+                    • (Optional) Interrupting the boss during blue moves<br>
+                    • (Optional) help with proration: There are 3 ways to do this. <br><br>
+                    
+                    • Have high enough aggro that you can spend time using basic attacks. <br>
+                    • Add the Reflection combo tag to some moves, as the damage dealt causes normal proration. <br>
+                    • be the leader of the party, and invite party members who naturally cancel proration. I.e., if you're a physical tank, invite 2 magic dps and 1 physical dps.<br><br>
+                    
+                    • (Optional) Protect decoys: Decoy shots lose attack speed each time they get hit. Although not important nor expected, keeping decoys safe can increase the dps's mp over time<br>
+                    • (Optional) Support dps with dancing or Fantasy Song<br><br><br>
+                    
+                    <strong>Tank playstyles</strong><br><br>
+                    • Lazy tanking: Having extremely long combos and just out-healing the damage you take. This playstyle allows you to watch Youtube while tanking, and also makes it easy to time your dances. May require preparation ahead of time, but allows for longer grinds without losing sanity<br>
+                    • Active tanking: Having short combos gives you more control and reaction speed to interrupt bosses and to heal yourself<br>
+                    • Manual tanking: This is only really done on staff tanks or while fighting minibosses. The problem with tanking minibosses is that they often die mid-combo, which can be annoying if your dances, sanctuary, etc. are inside your combos. “Manual combos” allows you to activate your combos without targeting anything, and also allows you to stop your combos whenever you please. Take, for example:<br><br>
+                    • Perfect Defense<br>
+                    • Warcry *save*<br>
+                    • Spirited Dance *swift*<br>
+                    • Berserk *save*<br>
+                    • Sanctuary *swift*<br>
+                    • Knight's Stance *swift*<br>
+                    • Guardian *save*<br>
+                    • Fareth *swift*<br>
+                    • Aegis *swift*<br>
+                    • Protection *cons*<br><br>
+                    Notice how the longest-lasting skills are at the back of the combo. This is because, if you only need to activate, say, Guardian and Fareth, once every 3 minutes, you want to be able to stop the combo before then. In this case, you would spam:<br><br>
+                    PDef -> Warcry as often as possible<br>
+                    PDef -> Warcry -> Spirited Dance every < 10 seconds<br>
+                    PD.WC.SD -> Berserk -> Sanctuary every < 15 seconds<br>
+                    PD.WC.SD.B.S -> Knight Stance -> Guardian -> Fareth every \ < 3 minutes<br>
+                    and then the full combo every 10 minutes<br><br><br>
+                    
+                    <strong>Sanctuary</strong><br><br>
+                    If your healing is relatively low, you'll be relying on Sanctuary a lot. How to make the best use of it?<br>
+                    • Stock up on physical defense, magic defense, and max HP<br>
+                    • Refine your shield, armor, and additional gear as high as you can. Every refinement adds +1% damage reduction (including fractional damage)<br>
+                    • If the boss only has one or two attacks that bother you, you can add elemental resistance against that attack. For example, when I fight Finstern, his water-type meteors can deal >10% of my max hp. So I put on Snowland Talisman, lowering my overall resistance but giving me +25% water res, and now everything Fin throws at me is within Sanctuary range<br> 
+                    • Sanctuary Activates against damage up to 10% of your Max HP, However in the case of BH Tanks, Sanctuary does NOT Activate based on Damage Taken After Internal Elixir, it is instead based on the Damage that would have been taken Before Internal Elixir Damage Reduction Calculation.<br><br><br><br>
+                    Tank Guide by <u>ClickFan A.K.A Sente</u> <br>
+                    <img src="https://media.discordapp.net/attachments/693369055301861386/940730934137880587/sente.png?width=212&height=39" alt="sente discord">
+                    </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+<p id="center">Created with 💕 by <a href="https://discord.gg/F37YFudpWP"><u>ZyRule</u></a> </p>
+</body>
+</html> 
