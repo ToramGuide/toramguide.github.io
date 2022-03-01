@@ -156,6 +156,7 @@ body {
     padding: 30px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .blog-text span{
@@ -194,6 +195,53 @@ body {
     transition: all ease 0.3s;
 }
 
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.label {
+  color: black;
+  padding: 3px;
+  font-family: Arial;
+}
+
+.guide {
+  background-color: #2DFF7A;
+  border: 2px solid #A8FFC8;
+  border-radius: 3px;
+} 
+
+.info {
+  background-color: #52BBFF;
+  border: 2px solid #99D7FF;
+  border-radius: 3px;
+} /* Blue */
+
+.important {
+  background-color: #FFED26;
+  border: 2px solid #FFF798;
+  border-radius: 3px;
+} /* Orange */
+
+.maintenance {
+  background-color: #FF3838;
+  border: 2px solid #FF8E8E;
+  border-radius: 3px;
+} /* Red */ 
+
+.other {
+  background-color: #e7e7e7; color: black;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+} /* Gray */ 
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 @media(max-width:1250px){
     .blog-box {
         width: 300px;
@@ -257,6 +305,7 @@ body {
                 <img src="https://toram-jp.akamaized.net/en/img/announcement/toram_playguide_banner_en.png" alt="blog">
             </div>
             <div class="blog-text">
+		    <div class="top-left label info">Info</div> <br>
                 <span>1 February 2022 / Stats & Weapon Guide</span>
                 <a href="https://toram.wiki.gd/threads/1" class="blog-title">How adjust stats by weapon to maximize Damage?</a>
                 <p>Stats is so important, every weapon has their own stats. so in this guide, we will cover stats allocation based on each weapon to maximize your damage + weapon tips!</p>
@@ -270,6 +319,7 @@ body {
             </div>
             <div class="blog-text">
                 <span>9 February 2022 / Tank Guide</span>
+		<div class="top-left label guide">Guide</div> <br>
                 <a href="https://toram.wiki.gd/threads/2" class="blog-title">Tank Guide</a>
                 <p>Tank is an important role in toram online! The main role of the tanker is to protect his teammates in the party. This guide covers basic knowledge about tank roles, builds, playstyle and more!</p>
                 <a href="https://toram.wiki.gd/threads/2">Read More</a>
